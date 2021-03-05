@@ -1,6 +1,6 @@
 # A Study of System Design
 ## An Application to the Swanton Pacific Ranch
-**Justin Wheeler  
+** Justin Wheeler  
 CSC 570  
 Cal Poly San Luis Obispo, Computer Science and Software Engineering Department ** 
 
@@ -32,20 +32,22 @@ According to this standard [2], a concept of operations (ConOps) is a user-orien
 
 The exact structure of a ConOps is determined by its main objective and can come in different forms depending on the project or organization. Here are a few examples of some real ConOps diagrams. The first from the FAA is an illustration of new Urban Air Mobility (UAM) corridors [4]. Now that electric vertical takeoff and landing (eVTOL) aircraft are becoming a reality, the FAA is essentially proposing traffic lanes in the sky to be reserved specifically for these aircraft. This ConOps was created with the purpose of illustrating the concept of the UAM corridor as an impending potential regulation to the Aerospace industry. As such, it shows many important pieces of information to the viewer. It shows the aerodromes where the eVTOL aircraft will takeoff and land. It shows these aerodromes in the three types of locations: rural, suburban, and urban. It shows how the UAM will function in a shared airspace, among various other types of aircraft, from the small RC quadcopters on the bottom to the large Boeing 737 on top. This ConOps was effective at achieving its purpose: showing what the new regulation would look like and how it would integrate with other systems already in place.
 
-![Insert FAA Pic here](pictures/eVTOL.png){ width=600 }
-FAA UAM [4]
+![Insert FAA Pic here](pictures/eVTOL.png)
+Figure 1: Concept of Operations for Urban Air Mobility  
+Source: Adapted from [4]  
 
 Here is another example from the Arizona State University cubesat club. The purpose of this ConOps is to show the mission and operational steps associated with the specific cubesat satellite. As you can see from the picture, the satellites operational steps are clearly depicted from launch to finish. This is another effective use of a concept of operations document.  
 
-![Insert ASU here](pictures/Satellite.png){ width=600 }
-ASU CubeSat [5]
+![Insert ASU here](pictures/Satellite.png)
+Figure 2: ASU CubeSat  
+Source: Adapted From [5]  
 
 For my SPR team project, I created a ConOps document shown below. The purpose behind this document is as follows. After understanding the problem given to me by the SPR staff, I came up with a solution. The solution was a system with many components. In order to convey this system to the SPR staff, we know that a picture is worth a thousand words. My solution was a Pokemon Go-like application. So, in this concept of operations, I show the end-user in the center of the illustration and a diagram representing the end-user's smart phone running the proposed mobile application. The necessary data structures are represented by the groups of entities in black. From the staff's point of view, it is conveyed that each entity or location has a name, gps location, description (inferred), articles, etc. associated with it. The chatbot circle represents integration with the poppy chatbot that the SPR staff have been working on on the side. The link to file database circle represents integration to the 16 SPR datasets which have yet to be organized. The SPR staff can deduce from this illustration that their virtual tour guide application will represent each important feature of the ranch via gps pins on a smart phone. The concept of operations document is indispensable in clearly conveying plans for such a project. For me, this document helped explain my ideas to my client, the SPR staff, clearly and ensure clear communication and shared understanding of the problem and solution.
 
 Furthermore, this document, as a valid ConOps, serves as a system level diagram for anyone working on the SPR project. When people much further along in the project begin making decisions, this document serves as a helpful reference point as an illustration of what the system should look like at the conceptual level.
 
-![Insert SPR conops here](pictures/ConOps.png){ width=600 }
-
+![Insert SPR conops here](pictures/ConOps.png)
+Figure 3: Swanton Pacific Ranch Virtual Assistant Concept of Operations  
 
 #### System Requirements
 The Requirements Specification is another very important document. The system requirements essentially define the system. They tell the user when they have a working implementation of the system. Every task in the statement of work in the following section should be traceable back to some system requirement. Any task that is not at least in some way directly or indirectly related to a system requirement should be considered unnecessary, for it does not contribute to the system as defined by the system requirements document. If a task is without justification, it is wasted work (going down a rabbit hole if you will). Please see Appendix entry "Sample Requirements" to see some sample requirements for the SPR project.
@@ -64,13 +66,15 @@ As you can see from the statement of work's initial hierarchical task list, the 
 #### Program Schedule
 A program schedule is a listing of a project's milestones, activities, and deliverables, usually with intended start and finish dates. These items are often coupled with some form of a work breakdown structure, like a statement of work. One of the most famous representations of the program schedule is the Gantt chart. The Gantt chart, named after its inventor, Henry Gantt, is characterized by horizontal bars that span across the chart's body representing durations of time. In a program schedule these horizontal bars correspond to specific tasks in a work schedule. [3] The width of these horizontal bars reflect the planned duration of each task while their color or opacity may reflect the status of a particular task. Here is an example of a Gantt Chart for a previous aircraft design project:  
 
-![Insert Gantt Here](pictures/GanttChart.png){ width=600 }
+![Insert Gantt Here](pictures/GanttChart.png)
+Figure 4: Aerospace Program Schedule  
 
 As you can see from this chart, the four major phases, conceptual design, preliminary design, detailed design, and production are all laid out with their respective timelines. Project milestones are listed right below them. The red line depicts the particular place in time when the illustration was shown. From this program schedule, one can clearly see where the project's particular current place in time relates to the milestones of the greater project. This chart shows the entire design & production timeline, so there is no integration to the program's immediate work schedule and task lists.
 
 For the SPR project, I created a program schedule in Excel. The project overview chart is shown below:
 
-![Insert Gantt Here](pictures/GanttWNumbers.png){ width=600 }
+![Insert Gantt Here](pictures/GanttWNumbers.png)
+Figure 5: Swanton Pacific Ranch Project Schedule Overview  
 
 This chart is not as specific as other program schedules, for the project for which I was designing for has not the same organizational structure or risk as, for example, designing an airplane. The environment for which the chart was created is very informal. The SPR staffers do not know who will take on each task. Nor do they know necessarily when each task later in the project will be started. So, it makes sense that this program schedule remain time inspecific. The most important parts of this document are the relative time durations of particular tasks and the relative order that they are in. If needed, a SPR staffer may easily substitute the column headers with the correct month abbreviations upon necessity to make the project schedule time specific.
 
@@ -85,40 +89,41 @@ System design and systems engineering are crucial aspects to any engineering pro
 
 [1] S. White et al., “Systems engineering of computer-based systems,” in Fems Immunology and Medical Microbiology - FEMS IMMUNOL MED MICROBIOL, 1994, vol. 26, pp. 18–29, doi: 10.1109/ECBS.1994.331687.  
 [2] "IEEE Guide for Information Technology - System Definition - Concept of Operations (ConOps) Document," IEEE Std 1362-1998, pp. 1–24, 1998, doi: 10.1109/IEEESTD.1998.89424.  
-[3] "Scheduling Guide for Program Managers" (PDF). AcqNotes.com. Defense Systems Management College Press. 2001. Retrieved 21 Feb 2021.  
-[4] "Concept of Operations for Urban Air Mobility," nasa.gov. FAA. 2019.  
-[5] "Concept of Operations," Phoenix CubeSat. [Online]. Available: http://phxcubesat.asu.edu/ConOps. [Accessed: 21-Feb-2021].   
-[6] Martin, M. G. (1998). "Statement of work: the foundation for delivering successful service projects," PM Network, 12(10), 54–57.  
+[3] "Scheduling Guide for Program Managers." Defense Systems Management College Press, 2001, Accessed: Feb. 21, 2021. [Online]. Available: https://www.acqnotes.com/Attachments/Scheduling%20Guide%20for%20Program%20Managers%20Oct%202001.pdf.  
+[4] "Urban Air Mobility (UAM): Concept of Operations." Federal Aviation Administration, Jun. 26, 2020, Accessed: Mar. 04, 2021. [Online]. Available: https://nari.arc.nasa.gov/sites/default/files/attachments/UAM_ConOps_v1.0.pdf.  
+[5] "Concept of Operations," Phoenix CubeSat. http://phxcubesat.asu.edu/ConOps (accessed Feb. 21, 2021).  
+[6] M. G. Martin, “Statement of work: the foundation for delivering successful service projects.” PM Network, 1998, Accessed: Feb. 21, 2021. [Online]. Available: https://www.pmi.org/learning/library/statement-work-delivering-successful-service-projects-4761.  
+  
 
 ### Appendix
 
 
 #### Sample Requiremnts
-1. Shall store all entity data  
-    1.1 Shall include list of all important entities  
-    1.2 Shall include all attributes: EntityExample.txt  
-    1.3 Shall store entities data as database file, ex. "json"  
-2. Shall implement mobile application  
-    2.1 Shall read in database file and relevant pictures/articles  
-    2.2 Shall implement Google/Apple maps  
-    2.3 Shall track user’s location and relate to entity locations  
-    2.4 Shall act as virtual tour guide  
-        2.4.1 Shall display name, description, pictures, articles at minimum  
-    2.5 Base functionality shall work completely offline (excluding Poppy [SOW 6.], SPR Database [SOW 7.]).  
-3. Shall integrate other SPR projects  
-    3.1 Shall integrate Poppy (late implementation)  
-    3.2 Shall integrate SPR Database (late implementation)  
+1\. Shall store all entity data  
+&nbsp;&nbsp;&nbsp;&nbsp;    1.1 Shall include list of all important entities  
+&nbsp;&nbsp;&nbsp;&nbsp;    1.2 Shall include all attributes: EntityExample.txt  
+&nbsp;&nbsp;&nbsp;&nbsp;    1.3 Shall store entities data as database file, ex. "json"  
+2\. Shall implement mobile application  
+&nbsp;&nbsp;&nbsp;&nbsp;    2.1 Shall read in database file and relevant pictures/articles  
+&nbsp;&nbsp;&nbsp;&nbsp;    2.2 Shall implement Google/Apple maps  
+&nbsp;&nbsp;&nbsp;&nbsp;    2.3 Shall track user’s location and relate to entity locations  
+&nbsp;&nbsp;&nbsp;&nbsp;    2.4 Shall act as virtual tour guide  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        2.4.1 Shall display name, description, pictures, articles at minimum  
+&nbsp;&nbsp;&nbsp;&nbsp;    2.5 Base functionality shall work completely offline (excluding Poppy [SOW 6.], SPR Database [SOW 7.]).  
+3\. Shall integrate other SPR projects  
+&nbsp;&nbsp;&nbsp;&nbsp;    3.1 Shall integrate Poppy (late implementation)  
+&nbsp;&nbsp;&nbsp;&nbsp;    3.2 Shall integrate SPR Database (late implementation)  
 
 #### Excerpt from Statement of Work
-1. Gather Entity Data  
-    1.1 Define most important entities  
-    1.2 Preliminary Data Gathering  
-    1.3 Secondary Data Gathering  
-    1.4 Entity Data Linking  
-        1.4.1 Related Entities  
-        1.4.2 Database  
+1\. Gather Entity Data  
+&nbsp;&nbsp;&nbsp;&nbsp;    1.1 Define most important entities  
+&nbsp;&nbsp;&nbsp;&nbsp;    1.2 Preliminary Data Gathering  
+&nbsp;&nbsp;&nbsp;&nbsp;    1.3 Secondary Data Gathering  
+&nbsp;&nbsp;&nbsp;&nbsp;    1.4 Entity Data Linking  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        1.4.1 Related Entities  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        1.4.2 Database  
 
-1. Gather Entity Data  
+1\. Gather Entity Data  
 Expected Length: 1-3 months  
 Expected Working Personnel: Jeanine (or other SPR staff)  
 Minimum Necessary Tools: Excel  
