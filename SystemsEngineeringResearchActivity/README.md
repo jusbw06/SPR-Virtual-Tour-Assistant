@@ -1,8 +1,8 @@
 # A Study of System Design
 ## An Application to the Swanton Pacific Ranch
-** Justin Wheeler  
+*Justin Wheeler  
 CSC 570  
-Cal Poly San Luis Obispo, Computer Science and Software Engineering Department ** 
+Cal Poly San Luis Obispo, Computer Science and Software Engineering Department* 
 
 ### Abstract
 Systems engineering is a necessary aspect to any large program or project. In industry, we see the principles of systems engineering used most frequently in military and defense where systems and projects tend to be very large and span across many engineering disciplines. The purpose of this investigation is to demonstrate the use of system design and systems engineering techniques to the Swanton Pacific Ranch Project and explain their significance. Through using system design/engineering techniques, I produce for my client, the Swanton Pacific Ranch (SPR), a system with a holistic view in mind. I am able to better define the problem and solutions available to my client, create a project timeline that can be followed several years from project start, and provide a predefined framework that students can utilize for easy project integration further along in the project.  
